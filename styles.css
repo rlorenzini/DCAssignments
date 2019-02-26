@@ -40,10 +40,17 @@ div#tswcontent {
 		float: none ;
 		width: 100% ;
 	}
+
 }
 div#tswcontproper, div#tswsideproper {
 	padding-left: 5px ;
 	padding-right: 5px ;
+}
+div#tswcontproper b {
+  color: #0000B8;
+}
+div#tswcontproper i {
+  color: #8B0000;
 }
 div#tswcontainer {
 	color: inherit ;
@@ -81,6 +88,13 @@ div#tswheader {
 	color: #fff ;
 	background-color: #8B0000 ;
 }
+#tswcssbuttons li a.active {
+  color: #fff ;
+  background-color: #8B0000;
+  border: 2px outset #8B0000 ;
+  text-decoration: none ;
+  display: block ;
+}
 
 #centerbody {
 text-align: center;
@@ -115,6 +129,8 @@ width: 60%;
 
 #ladyjustice {
   position: relative;
+  max-width: 50%;
+  height: auto;
 }
 #books {
   position: absolute;
@@ -147,4 +163,12 @@ width: 60%;
 }
 #terms li {
   text-align: left;
+}
+
+#bubble {
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 20%;
+  height: auto;
 }
