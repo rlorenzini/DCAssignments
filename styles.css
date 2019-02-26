@@ -21,14 +21,14 @@ meter, progress, output {
 
 div#tswsidecol {
 	float: right ;
-	width: 20% ;
+	width: 25% ;
 	color: #000 ;
 	background-color: #fff ;
 }
 div#tswcontent {
 	float: right ;
-	width: 80% ;
-	color: #000 ;
+	width: 75% ;
+  color: #000 ;
 	background-color: #fff ;
 }
 @media only screen and (max-width: 629px) {
@@ -84,7 +84,10 @@ div#tswheader {
 
 #centerbody {
 text-align: center;
+margin: auto;
+width: 60%;
 }
+
 #centerbody b {
   color: #00008B
 }
@@ -102,10 +105,46 @@ text-align: center;
   overflow: hidden;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 60%;
 }
 
 #bottom-menu a {
   color: #fff;
   text-decoration: none;
+}
+
+#ladyjustice {
+  position: relative;
+}
+#books {
+  position: absolute;
+ left: 91%;
+ top: 27%;
+ max-width: 5%;
+ height: auto;
+}
+#badge {
+  position: absolute;
+  left: 75%;
+  top: 27%;
+  max-width: 5%;
+  height: auto;
+}
+
+#handcuffs {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 20%;
+  height: auto;
+}
+
+#terms {
+
+}
+#terms ul {
+  text-align: left;
+}
+#terms li {
+  text-align: left;
 }
