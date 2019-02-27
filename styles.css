@@ -45,6 +45,7 @@ div#tswcontent {
 div#tswcontproper, div#tswsideproper {
 	padding-left: 5px ;
 	padding-right: 5px ;
+  margin-bottom: 5%;
 }
 div#tswcontproper b {
   color: #0000B8;
@@ -172,4 +173,8 @@ font-size: 0.875em;
   top: 0;
   max-width: 20%;
   height: auto;
+}
+
+.test {
+  background-color: blue
 }
