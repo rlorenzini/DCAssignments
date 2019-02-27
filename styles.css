@@ -89,7 +89,17 @@ div#tswheader {
 	color: #fff ;
 	background-color: #8B0000 ;
 }
+
+@keyframes coplights {
+  0% {background-color: #8B0000; border: 2px outset #8B0000;}
+  50% {background-color: #00008B; border: 2px outset #00008B;}
+  100% {background-color: #8B0000; border: 2px outset #8B0000;}
+}
+
 #tswcssbuttons li a.active {
+  animation-name: coplights;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
   color: #fff ;
   background-color: #8B0000;
   border: 2px outset #8B0000 ;
